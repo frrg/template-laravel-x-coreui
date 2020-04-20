@@ -1,0 +1,32 @@
+body {
+  background-color: #eae7e7;
+  font-family: Roboto, BlinkMacSystemFont, "Segoe UI", Oxygen, Ubuntu, Cantarell,
+    "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  color: gray;
+  margin: 0;
+  overflow: hidden;
+  position: relative;
+  z-index: -10;
+}
+
+img {
+  width: 13%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  text-align: center;
+  width:100%;
+  transform: translate(-50%, -50%);
+}
+
+footer a {
+  color: red;
+}
